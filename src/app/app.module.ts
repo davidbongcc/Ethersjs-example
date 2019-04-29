@@ -12,6 +12,7 @@ import { MatListModule } from '@angular/material/list';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { WalletComponent } from './wallet/wallet.component';
 import { WalletDirective } from './wallet.directive';
+import { ethers } from 'ethers';
 
 @NgModule({
   declarations: [
